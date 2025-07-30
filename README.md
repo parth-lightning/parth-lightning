@@ -1,4 +1,6 @@
-<h1 align="center">Parth Patil</h1>
+<h1 align="center">
+  <code>[ Parth Patil ]</code>
+</h1>
 <h3 align="center">2nd year Undergrad From Vishwakarma Institute Of Technology, Pune</h3>
 
 <center><img src="https://komarev.com/ghpvc/?username=parth-lightning&label=Profile%20views&color=0e75b6&style=flat" alt="parth-lightning" />
