@@ -5,14 +5,18 @@
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <a href="https://holopin.io/@parthlightning" style="flex: 1; text-align: center;">
-    <img src="https://holopin.me/parthlightning" alt="@parthlightning's Holopin badges" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  </a>
-  <div style="flex: 1; text-align: center;">
-    <img src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif" alt="Developer GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 10px;">
+      <a href="https://holopin.io/@parthlightning">
+        <img src="https://holopin.me/parthlightning" alt="@parthlightning's Holopin badges" style="max-width: 100%; height: auto;">
+      </a>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top; padding: 10px;">
+      <img src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif" alt="Developer GIF" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
