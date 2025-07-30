@@ -16,7 +16,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: '{"dark_mode":true,"color_theme":"rainbow"}' # <--- MODIFIED LINE
+          SETTING_JSON: "{\"dark_mode\":true,\"color_theme\":\"rainbow\"}" # <--- THIS IS THE FIXED LINE
       - name: Commit & Push
         run: |
           git config user.name github-actions
