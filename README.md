@@ -5,15 +5,14 @@
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
-<p align="center">
-<a href="https://holopin.io/@parthlightning">
-<img src="https://holopin.me/parthlightning" alt="An image of @parthlightning's Holopin badges, which is a link to view their full Holopin profile" width="40%">
-</a>
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif" alt="Developer GIF" width="40%"/>
-</p>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <a href="https://holopin.io/@parthlightning" style="flex: 1; text-align: center;">
+    <img src="https://holopin.me/parthlightning" alt="@parthlightning's Holopin badges" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  </a>
+  <div style="flex: 1; text-align: center;">
+    <img src="https://user-images.githubusercontent.com/75851313/151668395-5591532b-28da-46a6-9476-7c9694bcb60e.gif" alt="Developer GIF" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  </div>
+</div>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
