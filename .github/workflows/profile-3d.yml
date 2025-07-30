@@ -1,0 +1,28 @@
+name: GitHub-Profile-3D-Contrib
+on:
+  schedule:
+    # Runs at 18:00 UTC every day (which is 23:30 IST / 11:30 PM India Standard Time)
+    # You can adjust this cron schedule if you prefer a different time.
+    # Use a cron expression generator (e.g., crontab.guru) for help.
+    - cron: "0 18 * * *"
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+permissions:
+  contents: write # Grants permission to write to the repository (to commit the generated image)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4 # Checks out your repository code
+      - uses: yoshi389111/github-profile-3d-contrib@latest # Uses the 3D contrib action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Default token for public repo access
+          USERNAME: ${{ github.repository_owner }} # Automatically uses your username (parth-lightning)
+      - name: Commit & Push # Commits the newly generated image to your repo
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated 3D contribution graph"; then
+            git push
+          fi
